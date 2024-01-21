@@ -10,6 +10,22 @@
 		},
 		{
 			"handle": "filesystem"
+		},
+		{
+			"src": "^\\/_image$",
+			"dest": "render"
+		},
+		{
+			"src": "^\\/$",
+			"dest": "render"
+		},
+		{
+			"src": "^\\/about\\/?$",
+			"dest": "render"
+		},
+		{
+			"src": "^\\/studio\\/?$",
+			"dest": "render"
 		}
 	]
 }
