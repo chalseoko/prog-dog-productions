@@ -7,20 +7,27 @@ const navAbout = 'About';
 
 ---
  <div>
- 	<a href="/">
-		<h1>{navBarTitle}</h1>
-	</a>
-	<a href="/">{navHome}</a>
-	<a href="/studio">{navStudio}</a>
-	<a href="/about">{navAbout}</a>
+	<div>
+		<a href="/">
+			<h1>{navBarTitle}</h1>
+		</a>
+	</div>
+	<div>
+		<a href="/">{navHome}</a>
+		<a href="/studio">{navStudio}</a>
+		<a href="/about">{navAbout}</a>
+	</div>
 </div>
 
 <style>
-	h1 {
-		margin: 0;
+	div {
+		display: flex;
+  		justify-content: space-between;
 	}
-	p {
-		margin-top: 0.5rem;
-		margin-bottom: 0;
+	div div a {
+		text-decoration: inherit;
+		color: inherit;
+		padding: 10px;
 	}
+
 </style>

@@ -39,13 +39,22 @@ const { title } = Astro.props;
 	}
 	code {
 		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
+			Verdana,
+			sans-serif;
+	}
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - .5rem);
+		color: white;
+	}
+	button {
+		background-color: white;
+		border-radius: 3px;
+		font-weight: bold;
+		border: none;
+		height: 2.5rem;
+		font-size: 1rem;
 	}
 </style>
